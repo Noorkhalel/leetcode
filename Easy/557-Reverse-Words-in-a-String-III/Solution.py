@@ -9,15 +9,12 @@ class Solution(object):
             if x ==" ":
                a.append(f)
                f =""
-        
         txt =""
-        # print(a)
         for x in range(len(a)-1,-1,-1):
             txt += a[x] 
         print(txt)
         txt = txt[::-1]
-        txt = txt[1:]
-
+        txt = txt[1:]   
         return txt
     
 
