@@ -13,7 +13,7 @@ class Solution(object):
                    
         return not stack
 
-s = "{{({}{}([]))}}"
+s = "{{}}"
 solution = Solution()
 result = solution.isValid(s)
 print(result)
