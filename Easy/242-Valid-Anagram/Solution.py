@@ -1,5 +1,5 @@
 class Solution:
-    def isAnagram(self, s: str, t: str) -> bool:
+    def isAnagram(self, s, t):
         if len(s) != len(t):
             return False
 
